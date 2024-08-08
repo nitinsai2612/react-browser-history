@@ -1,0 +1,43 @@
+.history-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ececec;
+}
+
+.site-details {
+  display: flex;
+  align-items: center;
+}
+
+.time-accessed {
+  margin-right: 20px;
+  color: #64748b;
+}
+
+.domain-logo {
+  height: 30px;
+  margin-right: 20px;
+}
+
+.site-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.domain-url {
+  margin: 0;
+  color: #64748b;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}

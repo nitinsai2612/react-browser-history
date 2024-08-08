@@ -1,0 +1,58 @@
+.history-container {
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #3367d6;
+  padding: 10px 20px;
+  color: #ffffff;
+}
+
+.app-logo {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #2850a7;
+  padding: 5px 10px;
+  border-radius: 4px;
+  flex-grow: 1;
+}
+
+.search-icon {
+  height: 20px;
+  margin-right: 10px;
+}
+
+.search-input {
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  flex-grow: 1;
+}
+
+.search-input::placeholder {
+  color: #ececec;
+}
+
+.history-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.empty-history {
+  text-align: center;
+  padding: 20px;
+  color: #64748b;
+}
